@@ -6,16 +6,32 @@
 .vertical-nav-bar{
     background-color: #040B14;
     height: 100vh;
+    position: relative;
 }
 .nav-link{
     color: #A7A8B3 !important;
-    padding-left: 8px;
+    padding-left: 24px;
     padding-bottom: 24px;
 }
 .nav-icon{
     color:#6A6D7C;
+    margin-left: 16px;
 }
 
 .social-icon{
-    padding-bottom: 32px;
+    padding-bottom: 40px;
 }
+
+.copyright-section{
+    position: absolute;
+    bottom: 0;
+    color: #F3F6FC;
+
+    left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-size: 0.8rem;
+
+    
+}
+

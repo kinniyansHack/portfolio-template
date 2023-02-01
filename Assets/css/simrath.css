@@ -1,48 +1,38 @@
-*{
-    margin: 2px;
-    padding: 2px;
-    box-sizing: border-box;
-}
-
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-
 .about{
-    font-size: medium;
+    font-size: 2rem;
     padding-bottom: 5px;
     
 }
-h1{
+/* .heading{
     color: #043676;
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
     display: inline-block;
     font-size: 25px;
-}
+}  */
 .image{
     padding-top: 8px;
 }
-.container,.list{
+.container3,.list{
     display:flex 
 }
 
 
 .image-profile{
     width: 450px;
+    margin-right: 32px
 
 }
 
 .list2{
 
-        margin-left: 200px;
+    margin-left: 40px;
 }
 
-.heading{
+/* .heading{
     padding-bottom: 10px;   
-}
+} */
 
 hr{
    margin-top: 0px;
@@ -52,10 +42,14 @@ hr{
    padding-left: 0px;
    padding-top: 0px;
    padding-right: 0px;
-   padding-bottom: 2px;
    
 }
 
 .icon{
     color: rgb(32, 192, 228);
+}
+
+.inner-heading{
+    font-size: 1.8rem;
+    color: #173b6c;
 }

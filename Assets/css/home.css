@@ -171,3 +171,39 @@ footer {
   font-size: 1rem;
   margin-bottom: 32px;
 }
+
+@media only screen and (max-width: 600px) {
+  #vertical-nav-bar{
+    display: none;
+  }
+
+  footer{
+    display: none;
+  }
+
+  #about,#Fact,#portfolio,#contact{
+    padding-left: 16px;
+    padding-right: 0;
+  }
+  .container3,.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list2{
+  padding-left: 0;
+  margin-left: 32px;
+}
+
+.ul-about1{
+  margin-bottom: 0;
+}
+.ul-about2{
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.items{
+  flex-wrap: wrap;
+}
+}

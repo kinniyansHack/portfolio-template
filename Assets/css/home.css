@@ -1,3 +1,7 @@
+html,body{
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -29,6 +33,27 @@ h6 {
 .pr-24{
   padding-right: 24px;
 }
+
+
+.mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  border: 0;
+  font-size: 24px;
+  background-color: #149ddd;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+
 /* Nav-Bar */
 #vertical-nav-bar {
   position: fixed;
@@ -172,10 +197,15 @@ footer {
   margin-bottom: 32px;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 1199px){
   #vertical-nav-bar{
     display: none;
   }
+}
+
+@media only screen and (max-width: 600px) {
+
+  
 
   footer{
     display: none;
@@ -184,6 +214,7 @@ footer {
   #about,#Fact,#portfolio,#contact{
     padding-left: 16px;
     padding-right: 0;
+    margin-right: 16px;
   }
   .container3,.list{
     display: flex;
@@ -206,4 +237,27 @@ footer {
 .items{
   flex-wrap: wrap;
 }
+}
+
+
+
+
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
 }
